@@ -34,7 +34,15 @@ class Parallelepiped:
 # позволяющее получить его текущее состояние. Написать программу, демонстрирующую все возможности класса.
 
 class Decimal_Counter:
-    pass
+
+    current_stete = None
+    upper_border = None
+    lower_border = None
+
+    def counter(self):
+        self.current_stete = 0
+        self.upper_border = 0
+        self.lower_border = 10
 
 
 
@@ -55,7 +63,7 @@ class Decimal_Counter:
 class Animal:
     def get_food:
         pass
-    
+
 
 class Predator(Animal):
     pass
